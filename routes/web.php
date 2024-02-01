@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/dolar/{initDate}/{endDate}', [App\Http\Controllers\WalletController::class,'getValueFromDate']);
+Route::middleware('cors')->get('/dolar/{initDate}/{endDate}', [App\Http\Controllers\WalletController::class,'getValueFromDate']);

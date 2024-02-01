@@ -1,3 +1,25 @@
+Requerimientos : php ultima version 
+Laravel: 10 
+xamp :
+mysql : 
+
+primero levantamos los servicios y configuramos nuestro .env para conectarnos a una bd 
+
+luego ejecutamos el comando php artisan update 
+
+luego ejecutamos el comando php artisan migrate 
+
+y luego podriamos correr php artisan run serve 
+
+almacenar los valores del
+dólar debe poder ejecutarse tanto de forma automática (cada una
+hora) como on demand a través de un comando Artisan. 
+
+php artisan fill para la ejecucion  
+
+*/
+-------------------------------------------------------
+/*
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
